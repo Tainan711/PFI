@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #4A8467; /* Verde do fundo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+/* Logo no canto superior direito */
+.logo {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.form-container {
+    background-color: #C1D8B5; /* Verde claro do formulário */
+    padding: 30px 50px;
+    border-radius: 15px;
+    display: inline-block;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.form-container h1 {
+    margin-bottom: 25px;
+    font-weight: normal;
+}
+
+label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #1b3b2c;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: 1px solid #939393;
+    background-color: #E9F3E4;
+    outline: none;
+}
+
+button {
+    margin-top: 25px;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #4A8467;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3A6A53;
+}

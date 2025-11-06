@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fundo da página com imagem */
+body {
+  font-family: Arial, sans-serif;
+  background: url("floresta.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container que centraliza a caixa */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* Caixa central (a bolha arredondada) */
+.box {
+  background-color: rgba(240, 255, 250, 0.9); /* cor clara com transparência */
+  padding: 30px 50px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+}
+
+/* Título */
+.box h1 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+/* Texto abaixo */
+.box p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Área dos botões */
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+/* Estilo dos botões */
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  background-color: #2e8b57;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #246b45;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: url("imagemdefundo.ofc.jpeg") no-repeat center center fixed;
+  background-size: cover; /* Faz a imagem ocupar toda a tela */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
